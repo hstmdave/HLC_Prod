@@ -1,6 +1,5 @@
-<head>
-  <body>
-    <script type='text/javascript'>
+
+<script type='text/javascript'>
 	    function initEmbeddedMessaging() {
 		    try {
 			    embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
@@ -18,7 +17,5 @@
 			    console.error('Error loading Embedded Messaging: ', err);
 		    }
 	    };
-    </script>
-    <script type='text/javascript' src='https://healthstream.my.site.com/ESWHLCMessaging1741632889089/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
-  </body>
-</head>
+</script>
+<script type='text/javascript' src='https://healthstream.my.site.com/ESWHLCMessaging1741632889089/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
